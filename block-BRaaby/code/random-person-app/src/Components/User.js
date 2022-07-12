@@ -2,8 +2,8 @@
 function User(props) {
     return (
         <article>
-        <div className='top'>
-          <div className='h-40 w-40 rounded-full absolute border-2 top-5 left-40 shadow-md'>
+        <div className='top pt-10'>
+          <div className='h-40 w-40 rounded-full mx-auto border-2 shadow-md'>
             <img
               src={props.user.picture.large}
               alt='profile'
